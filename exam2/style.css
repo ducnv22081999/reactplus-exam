@@ -352,7 +352,7 @@ ul, li {
     color: #fff;
     font-size: 18px;
     line-height: 18px;
-    padding: 8px;
+    padding: 8px 8px 6px;
     border: 1px solid #fff;
     border-radius: 20px;
     display: flex;
@@ -436,6 +436,40 @@ ul, li {
         letter-spacing: -0.02em;
         color: #FFFFFF;
     }
+    .home__main .home__main-left {
+        position: relative;
+        width: 60%;
+        margin-left: auto;
+        /* padding-right: 15px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .home__main .home__main-left .home__main-left-top {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .home__main .home__main-left .home__main-left-center {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 50px;
+        letter-spacing: -0.02em;
+        color: #2278D4;
+    }
+    .home__main .home__main-left .home__main-left-bottom {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
     .home__main-left-top {
         font-style: normal;
         font-weight: bold;
@@ -453,6 +487,41 @@ ul, li {
         color: #2278D4;
     }
     .home__main-left-bottom {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .home__main .home__main-center__inner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .home__main .home__main-right {
+        position: relative;
+        width: 60%;
+        margin-right: auto;
+        /* padding-right: 15px; */
+    }
+    .home__main .home__main-right .home__main-right-top {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    .home__main .home__main-right .home__main-right-center {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 50px;
+        letter-spacing: -0.02em;
+        color: #E20613;
+    }
+    .home__main .home__main-right .home__main-right-bottom {
         font-style: normal;
         font-weight: bold;
         font-size: 12px;
