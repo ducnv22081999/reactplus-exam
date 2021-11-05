@@ -386,6 +386,9 @@ ul, li {
 
 /* responsive */
 @media all and (max-width: 576px) {
+    .header__navbar__button__click {
+        margin-right: -15px;
+    }
     .header__navbar__button-white {
         color: white;
         display: flex;
