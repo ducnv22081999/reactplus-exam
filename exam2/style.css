@@ -245,7 +245,7 @@ body {
     padding-top: 100px;
 }
 .main__cards .main__cards-bg {
-    background: url("./img/main-cards-bg.png");
+    background: url("./assets/img/main-cards-bg.png");
     width: 100%;
     height: 600px;
     object-fit: cover;
