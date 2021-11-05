@@ -1,0 +1,264 @@
+@import url("http://fonts.cdnfonts.com/css/century-gothic");
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+/* header */
+.header__navbar-logo {
+    font-size: 18px;
+}
+.header__navbar-item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* color: #FFFFFF; */
+}
+/* end header */
+/* main */
+.home__desc .home__desc__inner {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+/*  */
+.home__title__inner .home__title-top {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+.home__title__inner .home__title-center {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    color: #FFD100;
+}
+.home__title__inner .home__title-bottom {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+/*  */
+/*  */
+ .home__main-left .home__main-left-top {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+ .home__main-left .home__main-left-center {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    color: #2278D4;
+}
+ .home__main-left .home__main-left-bottom {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+/*  .home__main-center .home__main-center__inner {
+    background: url("./img/main-home-bg.png");
+    width: 100%;
+    height: 449px;
+} */
+
+ .home__main-right .home__main-right-top {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+ .home__main-right .home__main-right-center {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    color: #E20613;
+}
+ .home__main-right .home__main-right-bottom {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    /* color: #FFFFFF; */
+}
+/*  */
+/*  */
+.home__services .home__services__item .home__services__item__inner {
+    background: #171B29;
+    border-radius: 25px;
+    padding: 14px;
+}
+.home__services .home__services__item .home__services__item__year {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home__services .home__services__item .home__services__item__year .home__services__item__year__block {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+}
+.home__services .home__services__item .home__services__item__year .home__services__item__year__content {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 34px;
+}
+.home__services__item .home__services__item__inner .home__services__item__info {
+    margin-left: 30px;
+}
+.home__services__item .home__services__item__inner .home__services__item__info h4.home__services__item__title {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.home__services__item .home__services__item__inner .home__services__item__info .home__services__item__content {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.home__services__item .home__services__item__inner .home__services__item__info .home__services__item__desc {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+/* modifier services */
+.home__services__item__year__block-green {
+    background: #22A75D;
+}
+.home__services__item__year__content-green {
+    color: #22A75D;
+}
+.home__services__item__year__block-yellow {
+    background: #FFD100;
+
+}
+.home__services__item__year__content-yellow {
+    color: #FFD100;
+}
+.home__services__item__year__block-blue {
+    background: #0F87CA;
+
+}
+.home__services__item__year__content-blue {
+    color: #0F87CA;
+}
+.home__services__item__year__block-red {
+    background: #E20613;
+
+}
+.home__services__item__year__content-red {
+    color: #E20613;
+}
+.home__services__item-ptpb {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* end modifier services */
+/*  */
+/*  */
+.main__cards .main__cards-bg {
+    background: url("./img/main-cards-bg.png");
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-size: cover;
+}
+.main__cards .main__cards__inner {
+    padding: 50px 90px;
+    border: 1px solid black;
+}
+.main__cards .main__cards__inner .main__cards__title {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0F1320;
+}
+.main__cards .main__cards__inner .main__cards__number {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+    color: #19A255;
+}
+.main__cards .main__cards__inner .main__cards__desc {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #0F1320;
+}
+.main__cards .main__cards__inner .main__cards__more {
+    /* font-family: Century Gothic; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;    
+    color: #000000;    
+    opacity: 0.6;
+}
+/*  */
+/* end main */
